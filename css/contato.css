@@ -11,20 +11,10 @@ body {
 	color: #363636;
 }
 
-header {
-	width: 100%;
-	height: 120px;
-	background-color: #1f0049;
-}
-
 .container {
 	width: 1140px;
 	display: block;
 	margin: auto;
-}
-
-.logo {
-	height: 120px;
 }
 
 #conteudo {
