@@ -37,14 +37,14 @@ body {
 	padding: 20px 0px;
 }
 
-form > input {
+.input {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
 }
 
-form > input[type="text"]:focus {
+.input:focus {
 	border: 3px solid #1f0049;
 }
 
@@ -56,8 +56,4 @@ form > input[type="submit"] {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 18px;
-}
-
-form > #fmensagem {
-	min-height: 200px;
 }

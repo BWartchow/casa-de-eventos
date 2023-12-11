@@ -4,22 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Contato</title>
-		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
 		<link rel="stylesheet" type="text/css" href="css/contato.css" />
-		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
 	</head>
 	<body>
 		<header id="cabecalho">
 			<div class="logo-cabecalho">
-			  <a href="index.html">
-				<img class="logo" src="img/logo.svg" alt="Logomarca da casa de festas mamma mia" />
-			  </a>
+				<a href="index.html">
+					<img
+						class="logo"
+						src="img/logo.svg"
+						alt="Logomarca da casa de festas mamma mia"
+					/>
+				</a>
 			</div>
 			<div class="menu-cabecalho">
-			  <a href="index.html" class="menu-cabecalho">Home</a>
-			  <a href="formatura.html" class="menu-cabecalho">Formaturas</a>
-			  <a href="#" class="menu-cabecalho">Datas Comemorativas</a>
-			  <a href="contato.html" class="menu-cabecalho">Contato</a>
+				<a href="index.html" class="menu-cabecalho">Home</a>
+				<a href="formatura.html" class="menu-cabecalho">Formaturas</a>
+				<a href="#" class="menu-cabecalho">Datas Comemorativas</a>
+				<a href="contato.html" class="menu-cabecalho">Contato</a>
 			</div>
 		</header>
 		<div id="conteudo">
@@ -28,13 +32,38 @@
 					<h2>Contato</h2>
 					<form>
 						<label for="fnome">Nome:</label><br />
-						<input id="fnome" type="text" /><br />
+						<input
+							class="input"
+							id="fnome"
+							name="fnome"
+							type="text"
+							required
+						/><br />
 						<label for="femail">E-mail:</label><br />
-						<input id="femail" type="text" /><br />
+						<input
+							class="input"
+							id="femail"
+							name="femail"
+							type="email"
+							required
+						/><br />
 						<label for="fassunto">Assunto:</label><br />
-						<input id="fassunto" type="text" /><br />
+						<input
+							class="input"
+							id="fassunto"
+							name="fassunto"
+							type="text"
+							required
+						/><br />
 						<label for="fmensagem">Mensagem:</label><br />
-						<input id="fmensagem" type="text" /><br />
+						<textarea
+							class="input"
+							id="fmensagem"
+							name="fmensagem"
+							rows="8"
+							required
+						></textarea
+						><br />
 						<input type="submit" value="Enviar" />
 					</form>
 				</div>
@@ -42,7 +71,12 @@
 		</div>
 		<footer id="rodape">
 			<div class="container">
-			  <p>&copy; 2023 | Site desenvolvido pelo grupo 2 - Bê Wartchow, Jefit Lopes, Julia Kuchle, Nicolas Karling e Nicole Busanello - baseado no site desenvolvido pelo professor Roosevelt Franklin durante as aulas de FrontEnd Estático - Start Coding ADA + SAP</p>
+				<p>
+					&copy; 2023 | Site desenvolvido pelo grupo 2 - Bê Wartchow, Jefit
+					Lopes, Julia Kuchle, Nicolas Karling e Nicole Busanello - baseado no
+					site desenvolvido pelo professor Roosevelt Franklin durante as aulas
+					de FrontEnd Estático - Start Coding ADA + SAP
+				</p>
 			</div>
 		</footer>
 	</body>
