@@ -26,11 +26,6 @@ h2 {
     color: #6F9F9C;
 }
 
-#rodape {
-    width: 100%;
-    padding-top: 45px;
-    height: 120px;
-    background-color: #1F0049;
-    color: #ffffff;
-    font-size: 1.25em;
+#rodape{
+    height: 120px !important;
 }
