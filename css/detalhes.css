@@ -6,26 +6,27 @@ body {
     color: #363636;
 }
 
-#conteudo {
+main {
   min-height: calc(100vh - 240px);
 }
 
-h1 {
+.container h1, #info-geral h2, #info-especifica h3 {
     font-family: 'Playfair Display', serif;
+}
+
+.container h1 {
     padding-top: 58px;
     font-size: 36px;
     font-weight: 400;
     color:  #1F0049;
 }
 
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
+#info-geral h2 {
+    font-size: 36px;
     padding-bottom: 12px;
     font-weight: 400;
-    color: #6F9F9C;
 }
 
-#rodape{
+footer {
     height: 120px !important;
 }

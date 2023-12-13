@@ -1,41 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #E2D8A5;
-  color: #363636;
-}
-
-ul > li {
-    list-style-type: none;
-    margin-left: 30px;
-}
-
-ol > li {
-    margin-left: 30px;
-}
-
-button {
-  border: none;
-}
-
-a {
-  text-decoration: none;
+main {
+  min-height: calc(100vh - 240px);
 }
 
 .container {
   width: 1140px;
   display: block;
   margin: auto;
-}
-
-#conteudo {
-  min-height: calc(100vh - 240px);
 }
 
 h1 {
@@ -53,7 +23,8 @@ h1 {
   color: #6F9F9C;
 }
 
-h2 {
+#secao-eventos h2,
+#secao-enquete h2 {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
   padding: 12px 0 12px 0;
@@ -61,7 +32,7 @@ h2 {
   color: #6F9F9C;
 }
 
-.lista-eventos {
+#secao-eventos ul {
   display: flex;
   flex-direction: row;
   /*  PRATICANDO FLEXBOX */
@@ -72,7 +43,7 @@ h2 {
   padding: 20px 0 40px 0;
 }
 
-.lista-eventos li {
+#secao-eventos ul li {
   width: 360px;
   min-height: 320px;
   background-color: #FFFFFF;
@@ -81,11 +52,7 @@ h2 {
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
-.lista-eventos li:first-child {
-  background-color: gold;
-}
-
-.lista-eventos h3 {
+#secao-eventos ul li h3 {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   padding: 15px 15px 0 15px;
@@ -93,13 +60,13 @@ h2 {
   line-height: 150%; /* com porcentagem também funciona */
 }
 
-.lista-eventos img {
+#secao-eventos ul li img {
   padding: 15px;
   width: calc(100% - 30px); /* o calc serve para fazer calculos matemáticos de valores */
   aspect-ratio: 16/9;
 }
 
-.lista-eventos a {
+#secao-eventos ul li a {
   display: block;
   margin: 15px;
   width: calc(100% - 30px);
@@ -112,17 +79,14 @@ h2 {
   cursor: pointer;
 }
 
-.lista-eventos button:hover {
-  background-color: #6F9F9C;
-}
-
-.enquete {
+#secao-enquete .enquete {
   display: flex;
   gap: 10px;
   padding-bottom: 80px;
 }
 
-.resultados, .votacao {
+#secao-enquete .resultados,
+#secao-enquete .votacao {
   width: 50%;
   min-height: 200px;
   background-color: #FFFFFF;
@@ -131,7 +95,8 @@ h2 {
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
-.resultados h3, .votacao h3 {
+#secao-enquete .resultados h3,
+#secao-enquete .votacao h3 {
   font-family: 'Playfair Display', serif;
   font-size: 21px;
   padding: 15px 15px 0 15px;
@@ -139,32 +104,32 @@ h2 {
   line-height: 150%;
 }
 
-.resultados ol {
+#secao-enquete .resultados ol {
   padding: 10px 0 0 10px; 
 }
 
-.resultados ol li {
+#secao-enquete .resultados ol li {
   font-size: 16px;
   line-height: 200%;
 }
 
-.votacao form {
+#secao-enquete .votacao form {
   padding-top: 10px;
 }
 
-.votacao input {
+#secao-enquete .votacao input {
   margin-left: 30px;
   font-size: 18px;
   line-height: 150%;
 }
 
-.votacao input[type="text"] {
+#secao-enquete .votacao input[type="text"] {
   font-size: 12px;
   margin-left: 10px;
   width: 250px;
 }
 
-.btn-form {
+#secao-enquete .btn-form {
   width: calc(100% - 60px);
   margin: 10px 0 10px 0;
   height: 36px;

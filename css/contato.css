@@ -1,24 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap");
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: "Open Sans", sans-serif;
-	background-color: #e2d8a5;
-	color: #363636;
+main {
+	min-height: calc(100vh - 240px);
 }
 
 .container {
 	width: 1140px;
 	display: block;
 	margin: auto;
-}
-
-#conteudo {
-	min-height: calc(100vh - 240px);
 }
 
 .form-container {
